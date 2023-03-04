@@ -60,42 +60,6 @@ body {
 	}
 	}
 
-#about {
-	background-color: white;
-	color: black;
-	padding-top: 30px;
-	height: 420px;
-}
-
-#mylogo {
-	padding-left: 20px;
-	width: 32%;
-	float: left;
-}
-
-
-#about h3,p {
-	float: left;
-	text-align: left;
-	width: 55%;
-	margin-left: 35px;
-}
-
-
-
-
-#about h3 {
-	color: #185adb;
-	font-size: 3rem;
-	margin-bottom: 0px;
-	margin-top: 3%; /*calc(auto+10px);*/
-}
-
-#about p {
-	font-size: 1.3rem;
-	display: block;
-}
-
 #projects {
 	background-color: #000000;
 	padding-bottom: 75px;
@@ -123,7 +87,7 @@ body {
 }
 
 #project1 {
-	width: 45%;
+	width: 30%;
 	background-color: white;
 	margin-left: 3%;
 	border-radius: 9px;
@@ -143,7 +107,7 @@ body {
 }
 
 #project2 {
-	width: 45%;
+	width: 30%;
 	background-color: white;
 	margin-left: 3%;
 	border-radius: 9px;
@@ -163,7 +127,7 @@ body {
 }
 
 #project3 {
-	width: 45%;
+	width: 30%;
 	background-color: white;
 	margin-left: 3%;
 	border-radius: 9px;
@@ -185,7 +149,7 @@ body {
 }
 
 #project4 {
-	width: 45%;
+	width: 30%;
 	background-color: white;
 	margin-left: 3%;
 	margin-top: 30px;
@@ -207,7 +171,7 @@ body {
 
 
 #project5 {
-	width: 45%;
+	width: 30%;
 	background-color: white;
 	margin-top: 30px;
 	margin-left: 3%;
@@ -229,7 +193,7 @@ body {
 
 
 #project6 {
-	width: 45%;
+	width: 30%;
 	background-color: white;
 	margin-top: 30px;
 	margin-left: 3%;
@@ -273,7 +237,7 @@ body {
 
 #contacticons {
 	width: 300px;
-	background-color: #fcc054;
+	background-color: #f1ca83;
 	padding: 8px;
 	color: black;
 	border-radius: 7px;
