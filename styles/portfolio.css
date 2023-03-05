@@ -68,10 +68,10 @@ body {
 }
 
 #projects h2 {
-	padding-top: 55px;
-	padding-bottom: 35px;
+	padding-top: 20px;
+	padding-bottom: 0px;
 	color: #ffffff;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 #projects p {
@@ -128,21 +128,21 @@ body {
 }
 
 #contact h2 {
-	color: #007bd9;
+	color: #000000;
 	margin-bottom: 50px;
 }
 
 #contacticons {
 	width: 300px;
-	background-color: #f1ca83;
+	background-color: #f5d69d;
 	padding: 8px;
 	color: black;
 	border-radius: 7px;
-	float: left;
+	float: right;
 	margin-right: none;
-	margin-left: 10%;
-	padding-left: 20px;
-	margin-top: 75px;
+	margin-right: 10%;
+	padding-right: 20px;
+	
 }
 
 
@@ -157,7 +157,7 @@ body {
 	width: 100%;
 	border-width: 3px;
 	border-style: solid;
-	border-color: #72a2ff;
+	border-color: #383839;
 	border-radius: 6px;
 }
 
@@ -169,7 +169,7 @@ body {
 #contact input[type=submit] {
 	width: 100px;
 	border: None;
-	background-color: #4800dd;
+	background-color: #000000;
 	color: white;
 	font-size: 18px;
 	padding: 7px;
@@ -179,7 +179,8 @@ body {
 #space {
 	margin-top: 40px;
 	height: 130px;
-	background-color: #01122e;
+	background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 #footer {
@@ -193,7 +194,7 @@ body {
 
 #footer h2 {
 	font-family: "Esteban", serif;
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: normal;
 	margin-top: 30px;
 }
