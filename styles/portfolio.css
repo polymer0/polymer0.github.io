@@ -46,7 +46,7 @@ body {
 	}
 #photo {
 	width: 3900px;
-	animation: switch 10s ease-out infinite;
+	animation: switch 15s ease-out infinite;
 	}
 #photo > img {
 	float: left;
