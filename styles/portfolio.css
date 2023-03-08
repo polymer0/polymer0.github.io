@@ -46,7 +46,7 @@ body {
 	}
 #photo {
 	width: 3900px;
-	animation: switch 15s ease-out infinite;
+	animation: switch 30s ease-out infinite;
 	}
 #photo > img {
 	float: left;
@@ -100,7 +100,7 @@ body {
 	border-radius: 9px;
 	border-style: solid;
 	border-width: 5px;
-	border-color: silver;
+	border-color: rgb(255, 255, 255);
 	margin-bottom: 50px;
 }
 
@@ -109,7 +109,6 @@ body {
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-top: 3%;
-	border-style: solid;
 	border-radius: 10px;
 }
 
