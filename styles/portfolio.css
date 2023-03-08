@@ -277,13 +277,17 @@ h1 {
 
 .boujee-text {
 	--bg-size: 400%;
-	--color-one: hsl(211, 93%, 49%);
-	--color-two: hsl(304, 100%, 50%);
+	--color-one: hsl(0, 100%, 50%);
+	--color-two: hsl(228, 91%, 27%);
+	--color-three: hsl(300, 100%, 50%);
+	--color-four: hsl(315, 2%, 53%);
 	font-size: clamp(3rem, 25vmin, 8rem);
 	background: linear-gradient(
 				  90deg,
 				  var(--color-one),
 				  var(--color-two),
+				  var(--color-three),
+				  var(--color-four),
 				  var(--color-one)
 				) 0 0 / var(--bg-size) 100%;
 	color: transparent;
@@ -291,4 +295,6 @@ h1 {
 	-webkit-background-clip: text;
 	animation: move-bg 8s infinite linear;
   }
+
+
 
