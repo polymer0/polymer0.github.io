@@ -5,6 +5,10 @@
 	padding: 0 10px 0 10px;
 	height: 30px;
 	margin-top: 15px;
+	position: sticky;
+    top: 0;
+    z-index: 999;
+	background-color: #ffffff;
 }
 
 #head_icons a {
@@ -32,7 +36,7 @@ body {
 	margin-top: 6px;
 	padding-top: 0px;
 	padding-bottom: 5px;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 #container {
@@ -263,4 +267,28 @@ body {
 h1 {
 	padding: 0;
 }
+
+
+@keyframes move-bg {
+	to {
+	  background-position: var(--bg-size) 0;
+	}
+  }
+
+.boujee-text {
+	--bg-size: 400%;
+	--color-one: hsl(211, 93%, 49%);
+	--color-two: hsl(304, 100%, 50%);
+	font-size: clamp(3rem, 25vmin, 8rem);
+	background: linear-gradient(
+				  90deg,
+				  var(--color-one),
+				  var(--color-two),
+				  var(--color-one)
+				) 0 0 / var(--bg-size) 100%;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	animation: move-bg 8s infinite linear;
+  }
 
