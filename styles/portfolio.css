@@ -18,6 +18,14 @@
 body {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
+	min-height: 100vh;
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	box-sizing: border-box;
 }
 
 .hicon {
