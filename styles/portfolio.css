@@ -284,7 +284,7 @@ body {
   -ms-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background-color: #a83279;
+  background-color: #5a0638;
 }
 .timeline-event:hover .timeline-event-thumbnail {
   -moz-box-shadow: inset 40em 0 0 0 #a83279;
@@ -340,11 +340,11 @@ body {
   -webkit-transition-delay: 0.1s;
   transition: box-shadow 0.5s ease-in 0.1s;
   color: white;
-  font-size: 0.75em;
+  font-size: 1em;
   background-color: black;
-  -moz-box-shadow: inset 0 0 0 0em #ef795a;
-  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
-  box-shadow: inset 0 0 0 0em #ef795a;
+  -moz-box-shadow: inset 0 0 0 0em #562bf2;
+  -webkit-box-shadow: inset 0 0 0 0em #2600ff;
+  box-shadow: inset 0 0 0 0em #8507f3;
   display: inline-block;
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;
