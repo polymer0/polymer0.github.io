@@ -78,6 +78,7 @@ body {
 
 #projects {
 	background: rgb(0, 0, 0);
+	padding-top: 75px;
 	padding-bottom: 75px;
 	text-decoration: none;
 }
@@ -100,20 +101,20 @@ body {
 
 #projects a p {
 	text-decoration: none;
-	color: black;
 }
 
 #project {
 	display: block;
 	float: left;
 	width: 28.5%;
-	background-color: white;
+	background: rgb(0, 0, 0);
 	margin-left: 3%;
-	border-radius: 9px;
+	border-radius: 10px;
 	border-style: solid;
 	border-width: 5px;
-	border-color: rgb(255, 255, 255);
 	margin-bottom: 50px;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 #project img {
@@ -409,3 +410,37 @@ body {
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;
 }
+
+
+  .gradient-border {
+	--borderWidth: 3px;
+	background: #1D1F20;
+	position: relative;
+	border-radius: var(--borderWidth);
+  }
+  .gradient-border:after {
+	content: '';
+	position: absolute;
+	top: calc(-1 * var(--borderWidth));
+	left: calc(-1 * var(--borderWidth));
+	height: calc(100% + var(--borderWidth) * 2);
+	width: calc(100% + var(--borderWidth) * 2);
+	background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+	border-radius: calc(2 * var(--borderWidth));
+	z-index: -1;
+	animation: animatedgradient 3s ease alternate infinite;
+	background-size: 300% 300%;
+  }
+  
+  
+  @keyframes animatedgradient {
+	  0% {
+		  background-position: 0% 50%;
+	  }
+	  50% {
+		  background-position: 100% 50%;
+	  }
+	  100% {
+		  background-position: 0% 50%;
+	  }
+  }
