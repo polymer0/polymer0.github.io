@@ -97,6 +97,8 @@ body {
 	margin-top: 0px;
 	margin-left: 0px;
 	text-align: center;
+	color: #000000;
+	font-weight: bold;
 }
 
 #projects a p {
