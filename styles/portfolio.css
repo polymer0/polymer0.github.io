@@ -189,68 +189,6 @@ body {
 	margin-top: 10px;
 }
 
-#space {
-	margin-top: 40px;
-	height: 130px;
-	background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-}
-
-#footer {
-	text-align: center;
-	background-color: #000000;
-	padding: 15px;
-	padding-top: 25px;
-	font-size: 1.6rem;
-	color: white;
-}
-
-#footer h2 {
-	font-family: "Esteban", serif;
-	font-size: 2rem;
-	font-weight: normal;
-	margin-top: 30px;
-}
-
-#footericons {
-	margin-bottom: 15px;
-}
-
-#footericons a {
-	text-decoration: None;
-}
-
-.footicon {
-	padding: 5px;
-	margin-top: 15px;
-	padding-right: 55px;
-	margin-bottom: 15px;
-	filter: invert(100%);
-}
-
-.footiconlone {
-	margin-bottom: 15px;
-	padding: 5px;
-	margin-top: 5px;
-	filter: invert(100%);
-}
-
-#footer p {
-	font-size: 1.1rem;
-	margin-top: 0px;
-	width: 96%;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	text-align: right;
-	color: white;
-}
-
-#aagam {
-	color: pink;
-	text-decoration: underline;
-}
-
-
 /* Common classes */
 
 .fleft {
