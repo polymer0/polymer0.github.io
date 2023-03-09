@@ -8,7 +8,7 @@
 	position: sticky;
     top: 0;
     z-index: 999;
-	background: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
 	border-radius: 9px;
 	padding-top: 15px;
 	padding-bottom: 5%;
@@ -42,7 +42,7 @@ body {
 	margin-top: 20px;
 	border-right: solid;
 	border-right-width: 2px;
-	border-right-color: silver;
+	border-right-color: rgb(255, 255, 255);
 	padding-right: 14px;
 	margin-top: 6px;
 	padding-top: 0px;
@@ -85,7 +85,6 @@ body {
 #projects h2 {
 	padding-top: 20px;
 	padding-bottom: 0px;
-	color: #ffffff;
 	font-size: 2rem;
 }
 
@@ -287,17 +286,13 @@ h1 {
 
 .boujee-text {
 	--bg-size: 400%;
-	--color-one: hsl(0, 100%, 50%);
-	--color-two: hsl(228, 91%, 27%);
-	--color-three: hsl(300, 100%, 50%);
-	--color-four: hsl(315, 2%, 53%);
+	--color-one: hsl(179, 100%, 50%);
+	--color-two: hsl(290, 100%, 50%);
 	font-size: clamp(3rem, 25vmin, 8rem);
 	background: linear-gradient(
 				  90deg,
 				  var(--color-one),
 				  var(--color-two),
-				  var(--color-three),
-				  var(--color-four),
 				  var(--color-one)
 				) 0 0 / var(--bg-size) 100%;
 	color: transparent;
