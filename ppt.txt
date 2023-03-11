@@ -1,0 +1,7 @@
+<div id="ppt">
+		<div id="photo">
+			<img src="images/bg0.png" />
+			<img src="images/bg1.png" />
+			<img src="images/bg2.png" />
+			</div>	
+	</div>

@@ -50,7 +50,7 @@ body {
 	font-weight: bold;
 }
 
-#container {
+#ppt {
 	top: 0;
 	width: 100%;
 	height: 100%;
@@ -383,4 +383,44 @@ body {
 	  100% {
 		  background-position: 0% 50%;
 	  }
+  }
+
+  /* periodic */
+  #container {
+	width: 100%;
+	height: 55vw;
+	background: #262c35;
+	position: relative;
+  }
+  
+  .element-name {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	font-size: 1.5vw;
+	font-family: "Merriweather", serif;
+	font-weight: 700;
+  }
+  .element-number {
+	position: absolute;
+	left: 50%;
+	top: 15%;
+	transform: translate(-50%, -50%);
+	font-size: 0.6vw;
+  }
+  
+  .legend {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 0.8vw;
+	font-family: "Merriweather", serif;
+	font-weight: 700;
+  }
+  
+  .svg {
+	width: 100%;
+	height: 100%;
   }
