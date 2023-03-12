@@ -63,31 +63,4 @@
 	width: 26px;
 }
 
-#footer h2 {
-	font-size: 2.3rem;
-}
 
-.footicon {
-	padding-right: 10px;
-	margin-bottom: 30px;
-}
-
-.footiconlone {
-	margin-bottom: 30px;
-}
-
-#footer {
-	padding: 15px;
-	padding-bottom: 0px;
-}
-
-#footer p {
-	margin-top: 30px;
-	margin-bottom: 0px;
-	width: 100%;
-	padding-bottom: 5px;
-}
-
-#footericons {
-	margin-bottom: 0px;
-}

@@ -50,82 +50,113 @@ body {
 	font-weight: bold;
 }
 
-#ppt {
-	top: 0;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	position: relative;
-	}
-#photo {
-	width: 3900px;
-	animation: switch 30s ease-out infinite;
-	}
-#photo > img {
-	float: left;
-	width: 1300px;
-	height: 650px;
-	}
-@keyframes switch {
-	0%, 25% {
-	margin-left: 0;
-	}
-	35%, 60% {
-	margin-left: -1300px;
-	}
-	70%, 100% {
-	margin-left: -2600px;
-	}
-	}
+.main{
+	max-width: 1200px;
+	margin: 0 auto;
+  }
 
-#projects {
-	background: rgb(0, 0, 0);
-
-	text-decoration: none;
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+  
+  h1 {
+	  font-size: 24px;
+	  font-weight: 400;
+	  text-align: center;
+	  color: white;
+  }
+  
+  img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+  }
 
-#projects h2 {
-	padding-top: 20px;
-	padding-bottom: 0px;
-	font-size: 2rem;
-}
-
-
-
-#projects p {
-	font-size: 1.4rem;
-	width: 100%;
-	margin-top: 0px;
-	margin-left: 0px;
-	text-align: center;
-	color: #000000;
-	font-weight: bold;
-}
-
-#projects a p {
-	text-decoration: none;
-}
-
-#project {
+.btn {
+	color: #ffffff;
+	padding: 0.8rem;
+	font-size: 14px;
+	text-transform: uppercase;
+	border-radius: 4px;
+	font-weight: 400;
 	display: block;
-	float: left;
-	width: 28.5%;
+	width: 100%;
+	cursor: pointer;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background: transparent;
+  }
+  
+  .btn:hover {
+	background-color: rgba(255, 255, 255, 0.12);
+  }
+  
+  .cards {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .cards_item {
+	display: flex;
+	padding: 1rem;
+  }
+  
+  @media (min-width: 40rem) {
+	.cards_item {
+	  width: 50%;
+	}
+  }
+  
+  @media (min-width: 56rem) {
+	.cards_item {
+	  width: 33.3333%;
+	}
+  }
+  
+  .card {
 	background-color: white;
-	margin-left: 3%;
-	border-radius: 9px;
-	border-style: solid;
-	border-width: 5px;
-	border-color: rgb(255, 255, 255);
-	margin-bottom: 50px;
-}
+	border-radius: 0.25rem;
+	box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+  }
+  
+  .card_content {
+	padding: 1rem;
+	background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  }
+  
+  .card_title {
+	color: #ffffff;
+	font-size: 1.1rem;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	margin: 0px;
+  }
+  
+  .card_text {
+	color: #ffffff;
+	font-size: 0.875rem;
+	line-height: 1.5;
+	margin-bottom: 1.25rem;    
+	font-weight: 400;
+  }
+  .made_by{
+	font-weight: 400;
+	font-size: 13px;
+	margin-top: 35px;
+	text-align: center;
+  }
+  h3 {
+	color: white;
+  }
 
-#project img {
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 3%;
-	border-radius: 10px;
-}
 
 .conicons {
 	margin-top: 10px;
